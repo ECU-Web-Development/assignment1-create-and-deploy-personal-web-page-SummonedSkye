@@ -2,9 +2,9 @@
   "name": "assignment1-create-and-deploy-personal-web-page-summonedskye",
   "version": "1.0.0",
   "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/iY2knlqo)",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ECU-Web-Development/assignment1-create-and-deploy-personal-web-page-SummonedSkye/issues"
   },
   "homepage": "https://github.com/ECU-Web-Development/assignment1-create-and-deploy-personal-web-page-SummonedSkye#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "@tailwindcss/vite": "^4.1.18",
+    "express": "^5.2.1",
+    "tailwindcss": "^4.1.18"
   }
 }

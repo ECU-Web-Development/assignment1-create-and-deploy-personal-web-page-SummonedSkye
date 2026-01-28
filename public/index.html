@@ -1,69 +1,163 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="/css/site.css">
-    </head>
-    <body>
-        <h1>Skylar Harrison</h1>
-        <section>
-            <h2>About Me</h2>
-            <p>Dedicated professional with hands-on experience in data analysis, technical support, and software
-development. Proven track record of utilizing virtual reality for education, conducting research
-studies, and improving performance through automation tools. I am skilled in Python, R, and SQL</p>  
-        </section>
-        <section>
-            <h2>Work Experience</h2>
-            <section>
-                <h3>East Carolina University Office of Global Affairs</h3>
-                <p>Graduate Assistant  (Nov 2024 - Present)</p>
-            </section>
-            <section>
-                <h3>East Carolina University Computer Science Department</h3>
-                <p>Undergraduate Assistant  (May 2023 - Dec 2023)</p>
-            </section>
-            <section>
-                <h3>East Carolina University Geological Science Department</h3>
-                <p>Researcher/ Developer  (Jan 2023 - Dec 2023)</p>
-            </section>
-            <section>
-                <h3>East Carolina University Office of Global Affairs</h3>
-                <p>Technical Support Assistant  (Aug 2022 - Apr 2023)</p>
-            </section>
-            <section>
-                <h3>Vidant Medical Center</h3>
-                <p>Performance Analyst (Jun 2019 - Oct 2020)</p>
-            </section>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <section>
-                <h3>East Carolina University</h3>
-                <p>Bachelor of Science in Computer Science (2019 - 2023)</p>
-            </section>
-            <section>
-                <h3>East Carolina University Computer Science Department</h3>
-                <p>Masters in Data Science  (2024 - 2026)</p>
-            </section>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Python, R, SQL, JavaScript</li>
-                <li>Data Analysis: Statistical Analysis, Data Visualization, Machine Learning</li>
-                <li>Tools & Technologies: Jupyter Notebooks, Git, Docker, Tableau</li>
-                <li>Soft Skills: Problem-Solving, Communication, Team Collaboration</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Publications</h2>
-            <section>
-                <h3>Turtle VR: Virtual Reality Field Experience for Geological Engineering Education Enhancement</h3>
-                <p>S. Harrison, S. Sarambo, N. Weaver, K. Lazar, S. Moysey and R. Wu, "WIP: Turtle VR: Virtual Reality Field Experience for Geological Engineering Education Enhancement," 2024 IEEE Frontiers in Education Conference (FIE), Washington, DC, USA, 2024, pp. 1-5, doi: 10.1109/FIE61694.2024.10893319.</p>
-            </section>
-        </section>
-        <section>
-            <h2>Contact Information</h2>
-            <p>Email: skylarharrison251@gmail.com</p>
-            <p>LinkedIn: https://www.linkedin.com/in/skylar-harrison-857985265/</p>
-        </section>  
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Skylar Harrison</title>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <main class="max-w-4xl mx-auto p-6 space-y-10">
+
+      <header class="text-center">
+        <h1 class="text-4xl font-bold text-gray-900">Skylar Harrison</h1>
+      </header>
+
+<section class="bg-white p-6 rounded-lg shadow">
+  <h2 class="text-2xl font-semibold mb-3">About Me</h2>
+
+  <p class="leading-relaxed mb-8">
+    Dedicated professional with hands-on experience in data analysis, technical support,
+    and software development. Proven track record of utilizing virtual reality for education,
+    conducting research studies, and improving performance through automation tools.
+    Skilled in Python, R, and SQL.
+  </p>
+
+  <div class="flex flex-col sm:flex-row sm:justify-between gap-2 text-sm text-gray-600 border-t pt-4">
+    <span>She / Her</span>
+    <span>25 y.o.</span>
+    <span>Greenville, NC</span>
+  </div>
+</section>
+
+
+      <section class="bg-white p-6 rounded-lg shadow space-y-4">
+        <h2 class="text-2xl font-semibold">Work Experience</h2>
+
+        <div class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition" onclick="toggleDetails(this)">
+            <h3 class="font-medium">East Carolina University – Office of Global Affairs</h3>
+            <p class="text-sm text-gray-600">Graduate Assistant (Nov 2024 – Present)</p>
+
+            <p class="mt-3 text-gray-700 hidden">
+            Provided technical assistance to students in global understanding classes. Performed data analysis for GPE and study abroad projects.
+            </p>
+        </div>
+
+        <div class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition" onclick="toggleDetails(this)">
+          <h3 class="font-medium">East Carolina University – Computer Science Department</h3>
+          <p class="text-sm text-gray-600">Undergraduate Assistant (May 2023 – Dec 2023)</p>
+          <p class="mt-3 text-gray-700 hidden">
+            Assisted with Improving Undergraduate STEM Education (IUSE) research project using HTML and RSTUDIO which focuses on student-led education to assist students with college course instruction. Taught an entry-level course on robotics using IUSE curriculum and tools. Created the website for ECU’s IUSE projects
+            </p>  
+        </div>
+
+        <div class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition" onclick="toggleDetails(this)">
+          <h3 class="font-medium">East Carolina University – Geological Science Department</h3>
+          <p class="text-sm text-gray-600">Researcher / Developer (Jan 2023 – Dec 2023)</p>
+          <p class="mt-3 text-gray-700 hidden">
+            Developed and maintained virtual reality software for the ECU Water Resources Center. Turtle VR is an educational virtual reality experience developed in Unity designed to teach students real-life skills in their major from the comfort and safety of a classroom. Conducted user studies on the effectiveness of VR education in comparison to other digital formats. This research is the basis of a research paper for the Institute of Electrical and Electronics Engineers (IEEE). Led an Instructor Education workshop at the Geological Society of America Conference to teach and assist instructors with incorporating virtual reality tools into their curriculum to provide a more effective learning experience
+        </div>
+        <div class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition" onclick="toggleDetails(this)">
+          <h3 class="font-medium">East Carolina University – Office of Global Affairs</h3>
+          <p class="text-sm text-gray-600">Technical Support Assistant (Aug 2022 – Apr 2023)</p>
+          <p class="mt-3 text-gray-700 hidden">
+            Provided technical assistance to multiple virtual classes with universities all over the world. Coordinated with professors across the world to organize and facilitate multiple online meetings simultaneously.
+            </p>
+        </div>
+
+        <div class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition" onclick="toggleDetails(this)">
+          <h3 class="font-medium">Vidant Medical Center</h3>
+          <p class="text-sm text-gray-600">Performance Analyst (Jun 2019 – Oct 2020)</p>
+          <p class="mt-3 text-gray-700 hidden">
+            Developed software to increase performance of hospital staff within multiple Vidant Health locations. Worked in Excel and Epic to automate tools used by professionals across North Carolina to map patient data and report COVID-19 statistics. Was personally recommended for this position by multiple Computer Science instructors at D.H. Conley High School based on my performance in the Computer Science courses.
+            </p>
+        </div>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow space-y-4">
+        <h2 class="text-2xl font-semibold">Education</h2>
+
+        <div class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition" onclick="toggleDetails(this)">
+          <h3 class="font-medium">East Carolina University</h3>
+          <p class="text-sm text-gray-600">
+            Bachelor of Science in Computer Science (2019 – 2023)
+          </p>
+          <p class="mt-3 text-gray-700 hidden">
+            Assisted with data analysis, reporting, and technical support initiatives.
+            Supported international programs through automation tools and research-driven insights.
+            </p>
+        </div>
+
+        <div class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition" onclick="toggleDetails(this)">
+          <h3 class="font-medium">East Carolina University</h3>
+          <p class="text-sm text-gray-600">
+            Master’s in Data Science (2024 – 2026)
+          </p>
+          <p class="mt-3 text-gray-700 hidden">
+            Assisted with data analysis, reporting, and technical support initiatives.
+            Supported international programs through automation tools and research-driven insights.
+            </p>
+        </div>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow">
+        <h2 class="text-2xl font-semibold mb-3">Skills</h2>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Programming Languages: Python, R, SQL, JavaScript</li>
+          <li>Data Analysis: Statistical Analysis, Data Visualization, Machine Learning</li>
+          <li>Tools & Technologies: Jupyter, Git, Docker, Tableau</li>
+          <li>Soft Skills: Problem-Solving, Communication, Team Collaboration</li>
+        </ul>
+      </section>
+
+ <section class="bg-white p-6 rounded-lg shadow space-y-4">
+  <h2 class="text-2xl font-semibold">Publications</h2>
+
+  <div
+    class="cursor-pointer border rounded-lg p-4 hover:bg-gray-50 transition"
+    onclick="toggleDetails(this)"
+  >
+    <h3 class="font-medium">
+      Turtle VR: Virtual Reality Field Experience for Geological Engineering Education Enhancement
+    </h3>
+    <p class="text-sm text-gray-600">
+      IEEE Frontiers in Education Conference (FIE), 2024
+    </p>
+
+    <p class="mt-3 text-gray-700 hidden">
+      S. Harrison, S. Sarambo, N. Weaver, K. Lazar, S. Moysey, and R. Wu.
+      This work-in-progress paper explores the development and assessment of
+      a virtual reality field experience designed to enhance geological
+      engineering education through immersive learning.
+    </p>
+    </div>
+    </section>
+
+
+      <section class="bg-white p-6 rounded-lg shadow">
+        <h2 class="text-2xl font-semibold mb-3">Contact Information</h2>
+        <p>Email: <a class="text-blue-600 hover:underline" href="mailto:skylarharrison251@gmail.com">skylarharrison251@gmail.com</a></p>
+        <p>
+          LinkedIn:
+          <a
+            class="text-blue-600 hover:underline"
+            href="https://www.linkedin.com/in/skylar-harrison-857985265/"
+            target="_blank"
+          >
+            linkedin.com/in/skylar-harrison
+          </a>
+        </p>
+      </section>
+
+    </main>
+    <script>
+    function toggleDetails(card) {
+        const paragraph = card.querySelector("p.mt-3");
+
+        paragraph.classList.toggle("hidden");
+    }
+    </script>
+
+  </body>
 </html>
